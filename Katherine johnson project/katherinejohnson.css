@@ -1,0 +1,81 @@
+/*
+* Sara Bobiak
+* November 7, 2017
+* CSS Practice
+*/
+
+
+/* The universal selector */
+
+* {
+ background-color: tan ;
+    margin: 0;
+    padding: 0; }
+/* Put body attributes here */
+
+ 
+ img {
+	border: white;
+	border: 20px solid white;
+	border: 6px inset
+ ;
+    
+}   
+        
+      
+             
+  h1 {
+margin: .5em 0 .25em;   /* .5em top,  0 right and left,
+                                             .25em bottom  */
+ padding-left: 15px;
+                    
+    text-align: center;
+    
+
+      }
+    p {
+    margin: 0;          /*all four sides */
+     padding-left: 15px; 
+    text-align: center;
+    
+    
+     }
+                
+
+
+header { 
+    border-bottom: 5px solid white;
+    text-align: center; }
+
+body {
+    width: 964px;
+    background-color: tan;
+    margin: 15px auto;
+    border: 5px solid white;
+   }
+
+#sidebarA {
+    width: 23%;
+    height: 400px;     
+    float: left;
+    margin: 10px; }
+
+main {
+    width: 49%; 
+    float: left;
+        border-right: 5px solid white;
+         border-left: 5px solid white;   
+     }
+
+#sidebarB {
+    width: 20%;
+    height: 400px;     
+    float: right;
+    margin: 21px;
+    padding-left 10px; }
+    
+footer {
+    clear: both; 
+    border-top: 5px solid white;
+    margin: 10px; }
+                    
